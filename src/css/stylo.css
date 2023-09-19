@@ -1,0 +1,68 @@
+.card{
+  width: 100%;
+  color: #ccccccef;
+  text-align: center;
+  border: solid 1px #3a3a3a;
+  transition: .3s;
+}
+
+.row a{
+  width: 100%;
+}
+
+a{
+  text-decoration: none;
+}
+
+.card:hover{
+  border: solid 1px #197b23;
+  transform: translateY(-5px)
+}
+
+.card img{
+  width: 100%;
+}
+
+.card p{
+  font-size: 2em;
+  text-align: center;
+  font-family: 'Bebas Neue';
+}
+
+.preco-antigo{
+  text-decoration: line-through;
+  font-size: .7em;
+  display: inline-block;
+  margin-right: .5em;
+  opacity: .7;
+}
+
+.button{
+  display: block;
+  padding: 12px;
+  background: #197b23;
+  width: 100%;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #ccc;
+  transition: .3s;
+  border: 0;
+}
+
+.button:hover{
+  opacity: .9;
+}
+
+.body-card{
+  padding: 1em;
+}
+
+.img-card{
+  width: 100%;
+  aspect-ratio: 1 / .7;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
